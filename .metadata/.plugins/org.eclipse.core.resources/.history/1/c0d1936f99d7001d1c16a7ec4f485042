@@ -1,0 +1,11 @@
+package br.com.cursonjava.oo.classes;
+
+public class Shape {
+	public double getArea() {
+		return 0;
+	}
+	
+	public void imprimeArea() {
+		System.out.println(this.getArea());
+	}
+}

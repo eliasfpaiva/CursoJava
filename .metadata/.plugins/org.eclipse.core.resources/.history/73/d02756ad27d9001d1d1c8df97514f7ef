@@ -1,0 +1,10 @@
+package br.com.cursonjava.oo.classes.arrays;
+
+public class ArraysSortApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

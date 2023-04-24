@@ -1,0 +1,15 @@
+package br.com.cursojava.oo.classes.enums;
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+		UserAccount user = new UserAccount("John");
+		user.active();
+		user.putOnHold();
+		user.suspend();
+		user.delete();
+		user.setStatus(AccountStatus.valueOf(3));
+		
+		System.out.println(user);
+	}
+}

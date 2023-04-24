@@ -1,0 +1,44 @@
+package br.com.cursojava.oo.classes.aninhadas;
+
+public class Process {
+	private Config config;
+	private State state;
+		
+	public void next () {
+		this.setState(this.getState().getNext());
+	}
+	
+	public static class Config{
+		private State initState = State.FIRST;
+		public State nextState(State state) { return state.getNext(); }
+	}
+	
+	public static class Builder{
+		private Config config;
+		public Builder config(Config config) {
+			this.config = config;
+			return this;
+		}
+		
+		public Process build() {
+			Process process = new Process();
+			process.config = this.config;
+			process.state = this.config.initState;
+			return process;
+		}
+	}
+	
+	public enum State{
+		FIRST, SECOND, THIRD, FOURTH;
+		
+		public State getNext() {
+			return this.ordinal() == 3 ? State.FIRST : State.values()[this.ordinal() + 1];
+		};
+	}
+
+	public State getState() { return this.state; }
+	public void setState(State state) { this.state = state; }
+	
+	public Config getConfig() { return config; }
+	public void setConfig(Config config) { this.config = config; }	
+}

@@ -1,0 +1,25 @@
+package br.com.cursonjava.oo.classes.enums;
+
+import java.util.Arrays;
+
+public enum AccountStatus {
+	INACTIVE(0, "Inactive"),
+	ACTIVE(1, "Active"),
+	ON_HOLD(2, "On Hold"),
+	SUSPENDED(3, "Suspended"),
+	DELETED(4, "Deleted");
+	
+	int code;
+	String description;
+	
+	private AccountStatus(int code, String description) {
+		this.code = code;
+		this.description = description;
+	}
+	
+	public AccountStatus valueOf(int valor) {
+		return Arrays.stream(AccountStatus.values())
+				.filter(status -> status.equals(valor))
+				.findAny().orElse(null);
+	}
+}

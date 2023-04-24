@@ -1,0 +1,67 @@
+package br.com.cursojava.oo.classes.arrays;
+
+import java.util.Arrays;
+
+public class ArraysSortApp {
+
+	public static void main(String[] args) {
+		int[][] numbers = {
+				{ 9, 2, 11, 1000, -1, 5, 8 },
+				{ 3, 12, 6, 1 },
+				{ 7, 4, 10 },
+				{13, 14, 15, 100, 322, 21},
+				{54, 65, 34}
+				};
+		
+		numbers = ordenarMatriz(numbers);
+		imprimirMatrizLinhaALinha(numbers);
+	}
+	
+	static int[][] ordenarMatriz(int[][] matriz) {
+		int[] arrayGeral = inicializaArrayGeral(matriz);
+		arrayGeral = carregaArrayGeral(arrayGeral, matriz);
+		Arrays.sort(arrayGeral);
+		return preencheMatrizOrdenada(matriz, arrayGeral);
+	}
+	
+	static int[] inicializaArrayGeral(int[][] matriz) {
+		int tamanhoArray = 0;
+		for(int[] a : matriz)
+			tamanhoArray += a.length;
+		
+		return new int[tamanhoArray];
+	}
+	
+	static int[] carregaArrayGeral(int[] array, int[][] matriz) {
+		int indiceVetorGeral = 0;
+		for(int[] a : matriz) {
+			for(int n : a) {
+				array[indiceVetorGeral] = n;
+				indiceVetorGeral++;
+			}
+		}
+		
+		return array;
+	}
+	
+	static int[][] preencheMatrizOrdenada(int[][] matriz, int[] arrayOrdenado){
+		int indiceArrayGeral = 0, indice1Matriz = 0;
+		for(int[] a : matriz) {
+			int indice2Matriz = 0;
+			for(@SuppressWarnings("unused") int n : a) {
+				matriz[indice1Matriz][indice2Matriz] = arrayOrdenado[indiceArrayGeral];
+				indice2Matriz++;
+				indiceArrayGeral++;
+			}
+			indice1Matriz++;
+		}
+		
+		return matriz;
+	}
+	
+	static void imprimirMatrizLinhaALinha(int[][] matriz) {
+		for(int[] a: matriz) {
+			System.out.println(Arrays.toString(a));
+		}
+	}
+}

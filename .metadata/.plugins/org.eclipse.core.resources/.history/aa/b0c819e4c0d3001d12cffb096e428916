@@ -1,0 +1,8 @@
+package br.com.cursonjava.testes;
+
+public class Teste {
+	public static void main(String[] args) {
+		Integer n = 2;
+		System.out.println(n.byteValue());
+	}
+}

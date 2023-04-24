@@ -1,0 +1,17 @@
+package br.com.cursonjava.oo.classes;
+
+public class Rectangle {
+	int length, width;
+	
+	Rectangle(){ this(0, 0); }
+	
+	Rectangle(int length, int width){
+		this.length = length;
+		this.width = width;
+	}
+
+	private int getLength() { return length; }
+	private int getWidth() { return width; }
+	
+	public int getArea() { return getLength() * getWidth(); }
+}

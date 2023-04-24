@@ -1,0 +1,7 @@
+package br.com.cursojava.oo.classes;
+
+public class Square extends Rectangle {
+	public Square(double lado){
+		super(lado, lado);
+	}
+}

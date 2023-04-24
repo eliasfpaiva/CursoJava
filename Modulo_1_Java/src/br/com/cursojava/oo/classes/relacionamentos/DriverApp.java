@@ -1,0 +1,10 @@
+package br.com.cursojava.oo.classes.relacionamentos;
+
+public class DriverApp {
+	public static void main(String[] args) {
+		Vehicle carro = new Vehicle(4453, "Volvo S60");
+		Driver motorista = new Driver("John", carro);
+		
+		motorista.dirigeOque();
+	}
+}

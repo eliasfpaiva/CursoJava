@@ -1,0 +1,14 @@
+package br.com.cursonjava.oo.classes;
+
+public abstract class Shape {
+	public String nome = "Forma";
+	public double getArea() {
+		return 0;
+	}
+	
+	public String getNome() { return this.nome; }
+	
+	public void imprimeArea() {
+		System.out.println(String.format("A área do %s é %.2f", this.getNome(), this.getArea()));
+	}
+}

@@ -1,0 +1,13 @@
+package br.com.cursonjava.oo.classes;
+
+public class Square extends Rectangle {
+	
+	public Square(double lado){
+		super(lado, lado);
+	}
+
+	@Override
+	public double getArea() {
+		return Math.pow(this.length, 2);
+	}
+}

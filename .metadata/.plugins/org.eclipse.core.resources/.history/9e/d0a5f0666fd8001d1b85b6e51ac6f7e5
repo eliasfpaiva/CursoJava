@@ -1,0 +1,14 @@
+package br.com.cursonjava.oo.classes.aninhadas;
+
+public class ProcessApp {
+
+	public static void main(String[] args) {
+		Process process = new Process.Builder().config(new Process.Config()).build();
+
+		System.out.println(process.next());
+		System.out.println(process.next());
+		System.out.println(process.next());
+		System.out.println(process.next());
+		System.out.println(process.next());
+	}
+}

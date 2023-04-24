@@ -1,0 +1,13 @@
+package br.com.cursonjava.oo.classes.arrays;
+
+public class ArrayApp {
+
+	public static void main(String[] args) {
+		 int[] numbers = {10, 15, 20, 25, 30};
+		 System.out.println(numbers[2]);
+		 System.out.println(numbers.length);
+		 String[] strings = { "Narnia", "Oz", "Neverland" };
+		 System.out.println("The Wizard of " + strings[1]);
+		 strings[2] = "Wonderland";
+	}
+}

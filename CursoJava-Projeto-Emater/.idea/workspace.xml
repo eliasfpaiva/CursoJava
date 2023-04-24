@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="667a2152-e902-4f7d-a924-b2040b384613" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/11265.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CursoJava-Projeto-Emater.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursos/sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jdbc/PostgreSqlJdbcApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jpa/PersistenceContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jpa/PostegreSqlJpaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jpa/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Coordenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Entidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Funcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/GrupoFuncao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Perfil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/SituacaoConta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/UsuarioLogado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/UsuarioPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/interfaces/IEntidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/interfaces/ITemListaFuncoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/modelo/interfaces/IUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/servicos/ContaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/servicos/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/negocio/servicos/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/cursojava/projeto/sistema/excecoes/AppException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OQ2T1IQcECgTrrLW0hr6dIKm1W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Projetos/CursoJava/CursoJava-Projeto-Emater/src/br/com/cursojava/projeto/integracao/jpa/repository",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.cursojava.projeto.negocio.modelo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projetos\CursoJava\CursoJava-Projeto-Emater\src\br\com\cursojava\projeto\integracao\jpa\repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\CursoJava\CursoJava-Projeto-Emater\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.cursojava.projeto.integracao.jpa.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="br.com.cursojava.projeto.Main" />
+      <module name="CursoJava-Projeto-Emater" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="667a2152-e902-4f7d-a924-b2040b384613" name="Changes" comment="" />
+      <created>1681478488918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681478488918</updated>
+      <workItem from="1681478489884" duration="5392000" />
+      <workItem from="1681484217565" duration="734000" />
+      <workItem from="1681489566342" duration="27000" />
+      <workItem from="1681730605255" duration="10584000" />
+      <workItem from="1681815428038" duration="12037000" />
+      <workItem from="1681902410090" duration="13979000" />
+      <workItem from="1681988030894" duration="10385000" />
+      <workItem from="1682334664706" duration="10604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/cursojava/projeto/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jpa/repository/FuncaoRepository.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jpa/repository/Repository.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/cursojava/projeto/integracao/jpa/testes/RepositoryTestRunner.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

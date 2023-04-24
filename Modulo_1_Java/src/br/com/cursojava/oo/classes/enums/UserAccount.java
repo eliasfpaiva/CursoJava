@@ -1,0 +1,60 @@
+package br.com.cursojava.oo.classes.enums;
+
+public class UserAccount {
+	private String nome;
+	private AccountStatus status;
+
+	public UserAccount(String nome) {
+		this(nome, null);
+	}
+
+	public UserAccount(String nome, AccountStatus status) {
+		this.nome = nome;
+		this.status = status;
+	}
+
+	public void active() {
+		this.setStatus(AccountStatus.ACTIVE);
+		this.printStatus();
+	}
+
+	public void putOnHold() {
+		this.setStatus(AccountStatus.ON_HOLD);
+		this.printStatus();
+	}
+
+	public void suspend() {
+		this.setStatus(AccountStatus.SUSPENDED);
+		this.printStatus();
+	}
+
+	public void delete() {
+		this.setStatus(AccountStatus.DELETED);
+		this.printStatus();
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public AccountStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(AccountStatus status) {
+		this.status = status;
+	}
+
+	public void printStatus() {
+		System.out.println(String.format("Status now is %s", this.getStatus().getDescription()));
+	}
+
+	@Override
+	public String toString() {
+		return String.format("O status atual de %s é %s", getNome(), getStatus());
+	}
+}

@@ -1,0 +1,12 @@
+package br.com.cursonjava.oo.classes;
+
+public class ShapeApp {
+
+	public static void main(String[] args) {
+		Shape r = new Rectangle(4,2);
+		Shape s = new Square(4);
+		
+		r.imprimeArea();
+		s.imprimeArea();
+	}
+}

@@ -1,0 +1,5 @@
+package br.com.cursonjava.oo.classes.relacionamentos;
+
+public class Vehicle {
+
+}
